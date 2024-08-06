@@ -1,0 +1,5 @@
+aiogram==2.25.1
+telethon==1.28.5
+asyncpg==0.28.0
+aiocron==1.8
+gcloud-aio-storage==9.0.0
