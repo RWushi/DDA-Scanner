@@ -21,10 +21,10 @@ async def on_startup(dp):
 
 #gcloud
 DATABASE_CONFIG = {
-    'host': '34.146.128.18',
-    'database': 'postgres',
-    'user': 'postgres',
-    'password': 's4kUp3Nc1rCl3s&',
+    'host': '',
+    'database': '',
+    'user': '',
+    'password': '',
     'port': '5432'
 }
 
@@ -38,10 +38,10 @@ async def add_new_user(user_id):
 
     await conn.close()
 
-api_id = "29699799"
-api_hash = "2a66f255418ff322d2750d346ab9f111"
-bot_token = "6574243823:AAGYzYFSDjIpXvmk2J8jh5qIkjROGB4CH6M"
-#bot_token = "6319819956:AAHoObcErD2bZ_Fg8n68dx8jF0YsMKftkhk"
+api_id = ""
+api_hash = ""
+bot_token = ""
+#bot_token = "
 
 scan_bot = TelegramClient('scan_bot', api_id, api_hash)
 ag_bot = TelegramClient('ag_bot', api_id, api_hash)
